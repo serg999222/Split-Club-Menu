@@ -1,0 +1,39 @@
+body {
+	background-color: #C9C3DB;
+}
+
+
+.office_title1 {
+	font-size: 22px;
+	color: #FFFFFF;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.button_white {
+	height: 50px;
+	width: 100%;
+	margin-bottom: 20px;
+	color: #691F82;
+	font-size: 16px;
+	background-color: #FFFFFF;
+}
+
+.last_but {
+	margin-bottom: 250px;
+}
+
+.button_white div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.button_gray {
+	background-color: #84899E;
+	font-size: 16px;
+	color: #FFFFFF;
+	height: 50px;
+	width: 100%;
+}

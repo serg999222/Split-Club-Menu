@@ -1,0 +1,56 @@
+body {
+	background-color: #000000;
+}
+
+@media(min-width:768px) {
+	main {
+		width: 67%;
+		margin: 0 auto;
+		height: 80%;
+	}
+
+	footer {
+		display: none;
+	}
+
+	.menu_part_title {
+		margin: 0 auto;
+	}
+
+	.menu_part {
+		border: solid 1px #000000;
+	}
+}
+
+@media(min-width:1550px) {
+	.menu_part_image {
+		height: 160px;
+	}
+
+	.menu_part_title {
+		font-size: 33px;
+	}
+}
+
+
+@media(min-width:2000px) {
+	.menu_part_image {
+		height: 160px;
+	}
+
+	.menu_part_title {
+		font-size: 35px;
+		font-weight: bold;
+		color: var(--white-color);
+		max-width: 30%;
+		padding-left: 50px;
+
+	}
+
+	.menu_part_arrov {
+		width: 20px;
+		height: 26px;
+		margin-right: 12px;
+
+	}
+}

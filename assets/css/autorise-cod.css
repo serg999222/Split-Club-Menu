@@ -1,0 +1,44 @@
+.autorise_section {}
+
+.autorise_section_title1 {
+	font-size: 14px;
+	color: #707070;
+}
+
+.autorise_section_title1 span {
+	color: #691F82;
+	font-weight: bold;
+}
+
+.form_check_code button {
+	background-color: #C9C3DB;
+	font-size: 16px;
+	color: #707070;
+	height: 50px;
+	width: 100%;
+}
+
+@media(min-width:1200px) {
+	.form_check_code button {
+		background-color: #84899E;
+	}
+}
+
+.form_check_code_container {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.form_check_code_container input {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.not_letter {
+	color: #9764A8;
+	font-size: 12px;
+	font-weight: 300;
+	display: block;
+	margin-bottom: 250px;
+}

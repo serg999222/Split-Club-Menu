@@ -1,0 +1,42 @@
+:root {
+	--back-color: #370D43;
+	--white-color: #FFFFFF;
+	--opacity-icons: 1;
+	--opacity-text: 1;
+	--background-color-sitebar: #BFB5DC;
+	--link-color: #691F82;
+	--color-cart-navbar: #C8AEDA;
+	--color-navbar-icon: #9764A8;
+	--close-button-color: #000000;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.footer_wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 26px 35px 25px 40px;
+}
+
+.footer_logo {
+	margin-right: 17.33px;
+}
+
+.privaci_block {}
+
+.privaci_block_privaci {
+	color: #9764A8;
+	font-size: 11px;
+	font-weight: 300;
+	margin-bottom: 5px;
+}
+
+
+
+
+.privaci_block_linkSite {
+	color: var(--white-color);
+}

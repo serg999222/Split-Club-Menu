@@ -1,0 +1,203 @@
+h5 {
+	margin-bottom: 0;
+}
+
+:root {
+	--back-color: #370D43;
+	--white-color: #FFFFFF;
+	--opacity-icons: 1;
+	--opacity-text: 1;
+	--background-color-sitebar: #BFB5DC;
+	--link-color: #691F82;
+	--color-cart-navbar: #C8AEDA;
+	--color-navbar-icon: #9764A8;
+	--close-button-color: #000000;
+	--page-background-color1: #C9C3DB;
+}
+
+.page_flexcontainer {
+	display: flex;
+	margin: 30px 20px 30px 20px;
+}
+
+.page_flexcontainer_item_menu {
+	display: none;
+}
+
+
+body {
+	background-color: var(--color-cart-navbar);
+}
+
+.page_flexcontainer_item_autorise {
+	max-width: 360px;
+	margin: 0 auto;
+}
+
+@media(min-width:1200px) {
+	.page_flexcontainer {
+		margin-left: 20%;
+		margin-top: 5px;
+	}
+
+	.page_flexcontainer_item_menu {
+		display: block;
+		margin-right: 20px;
+
+	}
+
+	.page_title_section_logo {
+		display: none;
+	}
+
+	.page_flexcontainer_item_autorise {
+		margin: 0;
+	}
+
+	body {
+		background-color: var(--page-background-color1);
+	}
+}
+
+.page_title_section {
+	display: flex;
+	align-items: center;
+	margin-bottom: 57px;
+}
+
+.page_title_section_arrow {
+	margin-right: 17.07px;
+	position: relative;
+	bottom: 3px;
+}
+
+.page_title_section_arrow img {
+	width: 9.23px;
+	height: 19.9px;
+
+}
+
+.page_title_section_title {
+	color: var(--back-color);
+	font-size: 24px;
+	font-weight: 400;
+	flex: 1 1 auto;
+}
+
+.page_title_section_logo {}
+
+.autorise_section:last-child {
+	margin-bottom: 53.67px;
+}
+
+.autorise_section_title {
+	color: var(--white-color);
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.autorise_button {
+	background-color: var(--color-navbar-icon);
+	width: 100%;
+	height: 50px;
+	margin-bottom: 23px;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.button_google {
+	margin-right: 20px;
+}
+
+.button_google img {
+	margin-right: 20px;
+}
+
+.autorise_button_label {
+	color: var(--white-color);
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.button_aple {}
+
+.button_aple img {
+	margin-right: 20px;
+}
+
+.form_label_block_title_flexwrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5px;
+}
+
+.form_label_title {
+	color: var(--link-color);
+	font-weight: 12px;
+	margin: 0 2px;
+}
+
+.label_block {}
+
+.label_block_line {
+	height: 2px;
+	background-color: var(--back-color);
+	flex: 1 1 auto;
+	position: relative;
+	top: 6px;
+}
+
+.form_input {
+	background-color: var(--color-navbar-icon);
+	color: var(--white-color);
+	height: 50px;
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 13px;
+	text-align: start;
+	padding-left: 61.29px;
+}
+
+.form_input::placeholder {
+	color: var(--white-color);
+	font-size: 16px;
+
+}
+
+.form_input:last-of-type {
+	margin-bottom: 5px;
+}
+
+.forgot_password {
+	color: var(--back-color);
+	font-size: 13px;
+	display: block;
+	margin-bottom: 23.67px;
+}
+
+.form_label_title button {
+	height: 50px;
+	width: 100%;
+	margin-bottom: 30px;
+	background-color: var(--back-color);
+	color: var(--color-navbar-icon);
+	font-size: 16px;
+}
+
+.form_label_title button img {
+	width: 10.28px;
+	height: 16.62px;
+	margin-left: 7px;
+}
+
+.enter_cart_split {
+	font-size: 12px;
+	color: var(--back-color);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.enter_cart_split span {
+	text-decoration: underline;
+}
