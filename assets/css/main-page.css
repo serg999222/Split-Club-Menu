@@ -10,7 +10,9 @@
 	--close-button-color: #000000;
 }
 
-
+body {
+	height: 100vh;
+}
 
 .menu_part {
 	background: linear-gradient(to right, #000000 70%, #691F82);

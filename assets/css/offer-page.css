@@ -1,0 +1,20 @@
+body {
+	background-color: #F6F6F6;
+}
+
+main {
+	width: 100%;
+}
+
+.page_flexcontainer_item_autorise {
+	width: 90%;
+}
+
+.button_purple {
+	height: 50px;
+	width: 100%;
+	margin-bottom: 20px;
+	color: #9764A8;
+	font-size: 16px;
+	background-color: #370D43;
+}
