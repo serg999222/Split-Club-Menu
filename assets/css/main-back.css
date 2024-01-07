@@ -9,6 +9,14 @@ body {
 		height: 80%;
 	}
 
+	/*.main_banner {
+		display: none;
+	}
+
+	.main_banner1 {
+		display: block;
+	}*/
+
 	footer {
 		display: none;
 	}

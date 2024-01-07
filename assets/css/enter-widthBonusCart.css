@@ -1,0 +1,43 @@
+.page_title_section {
+	margin-bottom: 25px;
+}
+
+.autorise_section_title {
+	font-size: 12px;
+	font-weight: bold;
+	color: #370D43;
+	margin-bottom: 50px;
+}
+
+
+
+.forgot_password {
+	margin-bottom: 4px;
+	margin-top: 5px;
+}
+
+.forgot_password_wite {
+	font-size: 13px;
+	font-weight: 300;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.not_bonus_cart {
+	margin-top: 30px;
+	margin-bottom: 150px;
+}
+
+.forgot_password_underline {
+	font-size: 13px;
+	font-weight: 300;
+	color: #370D43;
+	display: block;
+	text-decoration: underline;
+	margin-bottom: 4px;
+}
+
+.form_label_title button {
+	margin-bottom: 0;
+}

@@ -14,6 +14,10 @@ body {
 	height: 100vh;
 }
 
+main {
+	overflow-y: scroll;
+}
+
 .menu_part {
 	background: linear-gradient(to right, #000000 70%, #691F82);
 	border: solid 1px #691F82;
@@ -78,7 +82,16 @@ body {
 	border: solid 1px #691F82;
 }
 
+.main_banner1 {
+	width: 100%;
+	border: solid 1px #691F82;
+}
+
 
 .main_banner img {
+	width: 100%;
+}
+
+.main_banner1 img {
 	width: 100%;
 }
