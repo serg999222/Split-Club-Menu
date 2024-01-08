@@ -102,9 +102,9 @@ h6 {
 	--close-button-color: #000000;
 }
 
-body,
+
 html {
-	height: 100vh;
+	height: 100%;
 }
 
 body {
@@ -112,7 +112,7 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 	font-family: 'Roboto', sans-serif;
-
+	min-height: 100%;
 }
 
 
