@@ -105,6 +105,8 @@ h6 {
 
 html {
 	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -113,6 +115,8 @@ body {
 	overflow-y: scroll;
 	font-family: 'Roboto', sans-serif;
 	min-height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -130,8 +134,11 @@ main {
 	display: flex;
 	flex-direction: column;
 	flex: 1 1 auto;
+
 }
 
 footer {
 	background-color: #370D43;
+	position: sticky;
+	bottom: 0;
 }
