@@ -51,7 +51,7 @@ function showMenuPart() {
 			indikatorBorders.forEach((item => {
 				item.style.backgroundColor = '#B70501';
 			}))
-			//indikatorBorder.style.backgroundColor = '#B70501';
+
 			buttonLinksMenu.forEach((item, i) => {
 				if (item.textContent === 'Меню Ресторан') {
 					item.style.backgroundColor = '#B70501';
@@ -60,7 +60,7 @@ function showMenuPart() {
 				}
 			})
 			decorSqares.forEach(item => {
-				item.style.backgroundColor = 'red';
+				item.style.backgroundColor = '#B70501';
 			})
 		}
 
