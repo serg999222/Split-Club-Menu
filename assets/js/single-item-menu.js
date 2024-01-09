@@ -2,7 +2,6 @@ const decorSqares = document.querySelectorAll('.sub_menu_list_item_description_s
 const indicator = document.querySelector('.indikator_menu');
 const indikatorBorders = document.querySelectorAll('.sub_menu_list_item_decorBorder');
 const buttonLinksMenu = document.querySelectorAll('.bottom_menu_item_link');
-const baner = document.querySelector('.li_wrapper_3_banner');
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 	anchor.addEventListener('click', function (e) {
@@ -45,33 +44,10 @@ window.addEventListener('scroll', function () {
 	});
 });
 
-window.addEventListener('scroll', () => {
-	var scrollPosition = window.scrollY;
-	if (scrollPosition > 100) {
-		document.querySelector('.scroll_up_button').style.visibility = 'visible';
-		document.querySelector('.scroll_up_button').style.opacity = '1';
 
-	}
-	if (scrollPosition < 100) {
-		document.querySelector('.scroll_up_button').style.visibility = 'hidden';
-		document.querySelector('.scroll_up_button').style.opacity = '0';
-	}
 
-})
 
-document.querySelector('.scroll_up_button').addEventListener('click', () => {
-	window.scrollTo(0, 0);
-})
 
-function toggleDisplay() {
-	if (baner.style.display === 'block') {
-		baner.style.display = 'none';
-	} else {
-		baner.style.display = 'block';
-	}
-}
-
-setInterval(toggleDisplay, 3000);
 
 
 document.querySelectorAll('.submenu_navigate_item_button').forEach((item, i) => {
@@ -190,3 +166,38 @@ function showMenuPart() {
 		}
 	}
 }
+
+
+// Show Single photo
+document.querySelectorAll('.li_wrapper1_galery img').forEach((item, i) => {
+	item.addEventListener('click', (e) => {
+		e.preventDefault();
+		showImg(i);
+	})
+})
+
+function showImg(i) {
+
+	document.querySelectorAll('.li_wrapper1_galery img').forEach((item, index) => {
+		if (index === i) {
+			const path = item.getAttribute('src');
+			console.log(item)
+			document.querySelector('.img_single').style.visibility = 'visible';
+			document.querySelector('.img_single').style.opacity = '1';
+			document.querySelector('.img_single').style.scale = '1';
+			document.querySelector('.img_single_img').setAttribute('src', path)
+		}
+	})
+}
+
+document.querySelector('.img_single_close_button').addEventListener('click', (e) => {
+	e.preventDefault();
+	document.querySelector('.img_single').style.visibility = 'hidden';
+	document.querySelector('.img_single').style.opacity = '0';
+	document.querySelector('.img_single').style.scale = '0';
+})
+
+document.querySelector('.sub_menu_list_item_mainImg').addEventListener('click', (e) => {
+	e.preventDefault();
+	showImg(0);
+})

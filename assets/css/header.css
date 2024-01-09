@@ -171,6 +171,16 @@
 	}
 }
 
+@media(min-width:1400px) {
+	.header_sitebar {
+		width: 40%;
+	}
+
+	.header_container {
+		margin: 0 20%;
+	}
+}
+
 @media(min-width:1800px) {
 	.header_sitebar {
 		width: 30%;
