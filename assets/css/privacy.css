@@ -1,0 +1,14 @@
+.main_wrapper {
+	background-color: #FFFFFF;
+}
+
+.page_flexcontainer_item_autorise {
+	margin: 0 0 0 20px;
+}
+
+.privacy_info {
+	font-size: 12px;
+	font-weight: 400;
+	color: #000000;
+	line-height: 1.4;
+}
